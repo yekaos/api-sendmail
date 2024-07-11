@@ -37,4 +37,4 @@ POST http://localhost/api/v1/endpoint-webservice/
   "message":"Buenos días, ¿qué tal?"
 }
 
-**Este ejemplo muestra cómo puedes enviar una solicitud POST a tu API usando cualquier cliente HTTP compatible con JSON, como cURL, Postman, o incluso desde tu propio código en PHP, Python, JavaScript, etc. Asegúrate de ajustar la URL y los datos según tus necesidades específicas.**
+**Este ejemplo muestra cómo puedes enviar una solicitud POST a tu API usando cualquier cliente HTTP compatible con JSON o incluso desde tu propio código en PHP, Python, JavaScript, etc. Asegúrate de ajustar la URL y los datos según tus necesidades específicas.**
