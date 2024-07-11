@@ -1,0 +1,39 @@
+
+### Prueba de correo exitoso
+POST http://localhost/api/v1/endpoint-webservice/
+
+{
+  "name":"Lamine",
+  "email":"lamine@example.com",
+  "message":"Buenos días, ¿qué tal?"
+}
+
+### Prueba de correo con dato faltante
+POST http://localhost/api/v1/endpoint-webservice/
+
+{
+  "name":"",
+  "email":"lamine@example.com",
+  "message":"Buenos días, ¿qué tal?"
+}
+
+### Prueba de correo con email erroneo
+
+POST http://localhost/api/v1/endpoint-webservice/
+
+{
+  "name":"Lamine",
+  "email":"lamineexample.com",
+  "message":"Buenos días, ¿qué tal?"
+}
+
+
+### Prueba de correo con todos los datos faltantes
+
+POST http://localhost/api/v1/endpoint-webservice/
+
+{
+  "name":"",
+  "email":"",
+  "message":""
+}
